@@ -53,4 +53,5 @@ if __name__ == "__main__":
     print("\nFinal processing result:")
     print(result)
 
+# TC1 -> Al probar por setencias encontramos que el if de counter no funciona, por lo tanto no se puede sacar el overall average
 # TC2 -> Truena el codigo al poner estudiante sin calificaciones, requisito RF4, Por lo tanto no se puede cubrir la sentencia de sin notas
