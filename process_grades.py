@@ -35,13 +35,22 @@ def process_grades(students):
 
 
 if __name__ == "__main__":
+    #Sentencias
     students = [
-        {'name': 'Ana', 'grades': [80, 90, 85]},
-        {'name': 'Luis', 'grades': [70, 70, 70]},
-        {'name': 'Jorge', 'grades': []},
-        {'name': 'Marta', 'grades': [40, 45, 50]}
+        {'name': 'Ana', 'grades': [80, 90, 85]}
     ]
+
+    #Decisiones y caminos TC2
+    #     students = [
+    #     {'name': 'Ana', 'grades': [80, 90, 85]},   # aprobado
+    #     {'name': 'Luis', 'grades': [60, 60, 60]},  # recuperación
+    #     {'name': 'Marta', 'grades': [40, 45, 50]},  # reprobado
+    #     {'name': 'Jorge', 'grades': []}, #Nulo
+    # ]
+
 
     result = process_grades(students)
     print("\nFinal processing result:")
     print(result)
+
+# TC2 -> Truena el codigo al poner estudiante sin calificaciones, requisito RF4, Por lo tanto no se puede cubrir la sentencia de sin notas
